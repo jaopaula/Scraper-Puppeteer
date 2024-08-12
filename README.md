@@ -20,7 +20,7 @@ Este projeto é um script de Web Scraping que utiliza Puppeteer para extrair tí
 1. **Clone o repositório**:
 
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/jaopaula/Scraper-Puppeteer.git
    cd seu-repositorio
    ```
 

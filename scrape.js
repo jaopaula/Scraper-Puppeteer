@@ -13,7 +13,7 @@ const createCsvWriter = require('csv-writer').createObjectCsvWriter;
    
     const newsItems = await page.evaluate(() => { 
         const headlines = []; 
-        const items = document.querySelectorAll('a[href*="/news"]'); // Seleciona todos os elementos <a> cujo atributo href contém "/news". Ajuste o seletor conforme necessário.
+        const items = document.querySelectorAll('a[href*="/news"]'); 
         
         items.forEach(item => { 
             const title = item.textContent.trim(); 
